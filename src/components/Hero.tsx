@@ -18,7 +18,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-brand-sapphire font-bold tracking-[0.2em] mb-4 uppercase text-sm md:text-base">Running Rabbit</h2>
+                    <p className="text-brand-sapphire font-bold tracking-[0.2em] mb-4 uppercase text-sm md:text-base">Running Rabbit</p>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-tight tracking-tight">
                         강남 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-brand-silver">달토</span>
                         <br />
