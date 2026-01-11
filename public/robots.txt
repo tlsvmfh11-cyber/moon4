@@ -1,0 +1,9 @@
+# robots.txt for 강남 달토
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://dalto.co.kr/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

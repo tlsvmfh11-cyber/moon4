@@ -1,0 +1,29 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply bg-brand-dark text-white font-pretendard;
+  }
+  
+  body {
+    @apply overflow-x-hidden antialiased;
+  }
+}
+
+@layer utilities {
+  .text-platinum-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-white via-brand-platinum to-brand-silver;
+  }
+  
+  .glass-card {
+    @apply backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl shadow-xl;
+  }
+  
+  .glass-button {
+    @apply backdrop-blur-md bg-white/10 border border-white/20 hover:bg-white/20 transition-all duration-300;
+  }
+}
