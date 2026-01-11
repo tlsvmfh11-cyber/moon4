@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, MessageCircle, Car } from 'lucide-react';
+import { Phone, MessageCircle, Car, Send } from 'lucide-react';
 
 const Contact = () => {
     return (
@@ -30,20 +30,29 @@ const Contact = () => {
                             <span className="font-bold text-brand-sapphire">인원, 시간, 방문 형태</span> 정도만 알려주셔도 충분합니다.
                         </p>
 
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
                             <a
                                 href="tel:01023033778"
                                 className="flex items-center justify-center gap-3 px-8 py-5 bg-white text-black rounded-full font-bold hover:bg-gray-200 transition-all text-lg group"
                             >
                                 <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                                전화로 문의하기
+                                전화 문의
                             </a>
                             <a
                                 href="sms:01023033778"
                                 className="flex items-center justify-center gap-3 px-8 py-5 bg-brand-sapphire text-white rounded-full font-bold hover:bg-blue-600 transition-all text-lg shadow-lg shadow-brand-sapphire/30 group"
                             >
                                 <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                                문자로 문의하기
+                                문자 문의
+                            </a>
+                            <a
+                                href="https://t.me/dalto0413"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center justify-center gap-3 px-8 py-5 bg-[#0088cc] text-white rounded-full font-bold hover:bg-[#006699] transition-all text-lg shadow-lg shadow-[#0088cc]/30 group"
+                            >
+                                <Send className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                                텔레그램
                             </a>
                         </div>
                     </div>
