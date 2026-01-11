@@ -17,7 +17,7 @@ const Pricing = () => {
                 >
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/5">
                         <img
-                            src="/images/pricing.png"
+                            src="/images/pricing.jpg"
                             alt="강남 달토 가격 안내 - 투명한 주대 정책과 정찰제 운영"
                             width="1200"
                             height="800"

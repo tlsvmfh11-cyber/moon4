@@ -47,7 +47,7 @@ const Intro = () => {
                     <div className="relative rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
                         <img
-                            src="/images/intro.png"
+                            src="/images/intro.jpg"
                             alt="강남 달토 인테리어 - 역삼동 삼정호텔 인근 프리미엄 하이퍼블릭 시설"
                             width="800"
                             height="1000"
