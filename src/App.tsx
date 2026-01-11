@@ -55,7 +55,7 @@ function App() {
           문자
         </a>
         <a
-          href="https://t.me/dalto0413"
+          href="https://t.me/hscompanyshs"
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 bg-[#0088cc]/95 backdrop-blur-md flex items-center justify-center gap-2 py-4 text-white font-bold text-base active:bg-[#006699] transition-colors"
