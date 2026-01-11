@@ -27,7 +27,8 @@ const reviews = [
 const Reviews = () => {
     return (
         <section id="reviews" className="py-24 bg-brand-dark relative">
-            <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url("/images/reviews.png")', backgroundSize: 'cover' }} />
+            <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url("/images/system.jpg")', backgroundSize: 'cover', backgroundAttachment: 'fixed' }} />
+            <div className="absolute inset-0 bg-gradient-to-b from-brand-dark via-transparent to-brand-dark" />
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-16">
